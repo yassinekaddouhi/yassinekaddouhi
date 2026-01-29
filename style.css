@@ -1,11 +1,11 @@
-/* RESET */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* VARIABLES */
+
 :root {
     --main-color: #2563eb;
     --secondary-color: #0f172a;
@@ -14,7 +14,7 @@
     --text-color: #1e293b;
 }
 
-/* BODY */
+
 body {
     font-family: 'Segoe UI', Tahoma, sans-serif;
     background-color: var(--bg-color);
@@ -22,20 +22,19 @@ body {
     line-height: 1.6;
 }
 
-/* HEADER */
+
 header {
     text-align: center;
     padding: 40px 20px;
     
-    background: linear-gradient(135deg, var(--main-color), #60a5fa);
+    background: linear-gradient(135deg, var(--main-color), transparent);
     color: white;
     box-shadow: 0 10px 30px rgba(0,0,0,0.15);
 }
 
 header img {
      width: 100%;
-  height: 200px; /* ou 100vh pour plein écran */
-
+  height: 200px; 
   background-image:
     linear-gradient(
       rgba(0, 0, 0, 0.4),
@@ -62,7 +61,7 @@ header h1 {
     text-shadow: 2px 2px 6px rgba(0,0,0,0.4);
 }
 
-/* NAVIGATION */
+
 nav {
     background-color: var(--secondary-color);
     position: sticky;
@@ -95,7 +94,7 @@ nav a:hover {
     color: white;
 }
 
-/* QR CODE */
+
 .qrcode {
     position: fixed;
     right: 20px;
@@ -110,14 +109,14 @@ nav a:hover {
     width: 90px;
 }
 
-/* MAIN */
+
 main {
     max-width: 1100px;
     margin: auto;
     padding: 40px 20px;
 }
 
-/* SECTIONS */
+
 section {
     background-color: var(--card-bg);
     padding: 30px;
@@ -136,7 +135,7 @@ section h2 {
     color: var(--main-color);
 }
 
-/* TABLE */
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -154,7 +153,7 @@ th, td {
     text-align: center;
 }
 
-/* BUTTONS */
+
 button {
     padding: 12px 18px;
     border-radius: 14px;
@@ -170,11 +169,11 @@ button:hover {
     background-color: #1d4ed8;
 }
 
-/* TOP BUTTON */
+
 .top-btn {
     position: fixed;
     bottom: 25px;
-    right: 25px;
+    left: 25px; 
     background-color: var(--main-color);
     color: white;
     width: 50px;
@@ -187,7 +186,8 @@ button:hover {
     box-shadow: 0 6px 15px rgba(0,0,0,0.3);
 }
 
-/* FOOTER */
+
+
 footer {
     background-color: var(--secondary-color);
     color: #cbd5f5;
@@ -207,10 +207,10 @@ footer pre {
     font-weight: bold;
 }
 
-/* RESPONSIVE */
+
 @media (max-width: 768px) {
     header img {
-        width: 110px;
+        width: 130px;
     }
 
     .qrcode {
@@ -224,3 +224,24 @@ footer pre {
 }
 
 
+.fixed-image {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 80px;         
+    z-index: 1000;        
+}
+
+.header-banner {
+    height: 300px;
+    background-image: url("code.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
