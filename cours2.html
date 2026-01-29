@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Cours 2 - HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header>
+    <h1>📘 Cours 2: Balises HTML</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="cours1.html">Cours 1</a></li>
+        <li><a href="cours2.html">Cours 2</a></li>
+        <li><a href="exercices.html">Exercices</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="avis.html">Avis</a></li>
+    </ul>
+</nav>
+<section>
+    <h1>Les différentes balises HTML</h1>
+    <p>
+        Ce cours présente les principales balises HTML utilisées pour le texte,
+        les formulaires, le multimédia et l’interactivité.
+    </p>
+</section>
+
+<hr>
+<main>
+
+<section>
+    <h2>📝 1. Balises de contenu textuel</h2>
+
+    <ul><li><h3> &lt;h1&gt; à &lt;h6&gt; – Titres</h3></li></ul>
+    <p>Ces balises permettent de créer des titres de différents niveaux.</p>
+    <ul>
+        <li>&lt;h1&gt; : titre principal</li>
+        <li>&lt;h6&gt; : titre le moins important</li>
+    </ul>
+    <p>Elles structurent le contenu et améliorent la lisibilité.</p>
+
+    <ul><li><h3> &lt;p&gt; – Paragraphe</h3></li></ul>
+    <p>
+        La balise &lt;p&gt; sert à afficher un paragraphe de texte.<br>
+        Chaque paragraphe est automatiquement séparé des autres.
+    </p>
+
+    <ul><li><h3> &lt;span&gt; – Conteneur en ligne</h3></li></ul>
+    <p>
+        La balise &lt;span&gt; est utilisée pour cibler une partie du texte
+        sans créer de saut de ligne.<br>
+        Elle est souvent utilisée avec le CSS.
+    </p>
+
+    <ul><li><h3> &lt;strong&gt; – Texte important</h3></li></ul>
+    <p>
+        Cette balise met un texte en valeur en le rendant important.<br>
+        Par défaut, le texte apparaît en gras.
+    </p>
+
+    <ul><li><h3> &lt;em&gt; – Texte en emphase</h3></li></ul>
+    <p>
+        La balise &lt;em&gt; sert à insister sur un mot ou une phrase.<br>
+        Par défaut, le texte apparaît en italique.
+    </p>
+
+    <ul><li><h3> &lt;blockquote&gt; – Citation longue</h3></li></ul>
+    <p>
+        Elle est utilisée pour afficher une citation importante ou inspirante.<br>
+        Le navigateur applique généralement une mise en forme spéciale.
+    </p>
+
+    <ul><li><h3> &lt;code&gt; – Fragment de code</h3></li></ul>
+    <p>
+        La balise &lt;code&gt; permet d’afficher du code informatique
+        au milieu d’un texte.
+    </p>
+
+    <ul><li><h3> &lt;pre&gt; – Texte préformaté</h3></li></ul>
+    <p>
+        La balise &lt;pre&gt; conserve les espaces, tabulations et retours à la ligne.<br>
+        Elle est idéale pour afficher du code sur plusieurs lignes.
+    </p>
+
+    <ul><li><h3> &lt;br&gt; – Saut de ligne</h3></li></ul>
+    <p>Insère un saut de ligne sans créer un nouveau paragraphe.</p>
+
+    <ul><li><h3> &lt;hr&gt; – Ligne horizontale</h3></li></ul>
+    <p>Affiche une ligne de séparation entre deux parties du contenu.</p>
+</section>
+
+<hr>
+
+<section>
+    <h2>🧾 2. Balises de formulaires</h2>
+
+    <ul><li><h3> &lt;form&gt; – Conteneur du formulaire</h3></li></ul>
+    <p>Regroupe tous les éléments d’un formulaire.</p>
+
+    <ul><li><h3> &lt;input&gt; – Champ de saisie</h3></li></ul>
+    <p>
+        Permet de créer différents types de champs :
+        texte, email, mot de passe, bouton, etc.
+    </p>
+
+    <ul><li><h3> &lt;textarea&gt; – Zone de texte</h3></li></ul>
+    <p>Permet à l’utilisateur de saisir un texte long sur plusieurs lignes.</p>
+
+    <ul><li><h3> &lt;select&gt; et &lt;option&gt; – Liste déroulante</h3></li></ul>
+    <ul>
+        <li>&lt;select&gt; : crée la liste</li>
+        <li>&lt;option&gt; : chaque choix possible</li>
+    </ul>
+
+    <ul><li><h3> &lt;button&gt; – Bouton</h3></li></ul>
+    <p>Crée un bouton cliquable pour envoyer ou réinitialiser un formulaire.</p>
+
+    <ul><li><h3> &lt;label&gt; – Étiquette</h3></li></ul>
+    <p>
+        Associe un texte descriptif à un champ de formulaire.<br>
+        Améliore l’accessibilité.
+    </p>
+
+    <ul><li><h3> &lt;fieldset&gt; et &lt;legend&gt;</h3></li></ul>
+    <ul>
+        <li>&lt;fieldset&gt; : regroupe plusieurs champs</li>
+        <li>&lt;legend&gt; : titre du groupe</li>
+    </ul>
+</section>
+
+<hr>
+
+<section>
+    <h2>🎵 3. Balises multimédia</h2>
+
+    <ul><li><h3> &lt;img&gt; – Image</h3></li></ul>
+    <p>
+        Permet d’afficher une image.<br>
+        L’attribut alt est important pour l’accessibilité.
+    </p>
+
+    <ul><li><h3> &lt;video&gt; – Vidéo</h3></li></ul>
+    <p>
+        Intègre une vidéo directement dans la page.<br>
+        Peut contenir plusieurs sources.
+    </p>
+
+    <ul><li><h3> &lt;audio&gt; – Audio</h3></li></ul>
+    <p>Permet de lire un fichier audio avec des contrôles intégrés.</p>
+
+    <ul><li><h3> &lt;source&gt;</h3></li></ul>
+    <p>Définit une source multimédia pour &lt;audio&gt; ou &lt;video&gt;.</p>
+
+    <ul><li><h3> &lt;track&gt;</h3></li></ul>
+    <p>Ajoute des sous-titres ou des descriptions à une vidéo.</p>
+
+    <ul><li><h3> &lt;canvas&gt;</h3></li></ul>
+    <p>Crée une zone de dessin dynamique contrôlée par JavaScript.</p>
+
+    <ul><li><h3> &lt;svg&gt;</h3></li></ul>
+    <p>Permet d’afficher des graphiques vectoriels redimensionnables.</p>
+
+    <ul><li><h3> &lt;picture&gt;</h3></li></ul>
+    <p>
+        Conteneur permettant de proposer plusieurs versions d’une image
+        selon la taille de l’écran.
+    </p>
+</section>
+
+<hr>
+
+<section>
+    <h2>🖱️ 4. Balises interactives</h2>
+
+    <ul><li><h3> &lt;a&gt; – Lien</h3></li></ul>
+    <p>Crée un lien vers une autre page ou un site web.</p>
+
+    <ul><li><h3> &lt;details&gt; et &lt;summary&gt;</h3></li></ul>
+    <p>
+        Permettent d’afficher du contenu masqué
+        qui apparaît après un clic.
+    </p>
+
+    <ul><li><h3> &lt;progress&gt; – Barre de progression</h3></li></ul>
+    <p>Affiche l’avancement d’une tâche ou d’un processus.</p>
+</section>
+</main>
+
+
+<footer>
+    <p id="copyright">© Yassine Kaddouhi</p>
+    <pre>
+ _  __   _   ___  ___   ___  _   _ _  _ ___ 
+ | |/ /  /_\ |   \|   \ / _ \| | | | || |_ _|
+ | ' <  / _ \| |) | |) | (_) | |_| | __ || | 
+ |_|\_\/_/ \_\___/|___/ \___/ \___/|_||_|___|
+    </pre>
+</footer>
+</body>
+</html>
+
+
+

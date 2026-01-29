@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Cours 1 - HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header>
+    <h1>📘 Cours 1 : Structure HTML</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="cours1.html">Cours 1</a></li>
+        <li><a href="cours2.html">Cours 2</a></li>
+        <li><a href="exercices.html">Exercices</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="avis.html">Avis</a></li>
+    </ul>
+</nav>
+
+<main>
+<section>
+    <h2>Introduction au HTML</h2>
+    <p>
+        HTML signifie <strong>HyperText Markup Language</strong>.
+        C’est le langage utilisé pour créer la structure
+        des pages web.
+    </p>
+
+    <p>
+        Le HTML permet d’organiser le contenu d’une page
+        comme les titres, les paragraphes, les images et les liens.
+    </p>
+</section>
+<section>
+    <h2>Structure globale d’une page HTML</h2>
+
+    <p>
+        Tout document HTML doit commencer par une déclaration du type de document :
+        <strong>&lt;!DOCTYPE html&gt;</strong>.
+    </p>
+
+    <p>
+        Le document HTML commence par la balise <strong>&lt;html&gt;</strong> et se termine par
+        <strong>&lt;/html&gt;</strong>. <br>
+
+        La partie visible du document HTML se trouve entre les balises
+        <strong>&lt;body&gt;</strong> et <strong>&lt;/body&gt;</strong>.
+    </p>
+</section>
+
+
+<section>
+    <h2>Exemple de page HTML simple</h2>
+
+    <div style="
+        border: 2px solid #4CAF50;
+        background-color: #f1f8f4;
+        padding: 15px;
+        border-radius: 8px;
+    ">
+        <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="fr"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;Ma première page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Bonjour&lt;/h1&gt;
+    &lt;p&gt;Ceci est ma première page HTML.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+        </pre>
+    </div>
+
+    <p>
+        Cet exemple montre une page HTML minimale
+        avec un titre et un paragraphe.
+        Vous pouvez essayer vous-même cet exemple dans Visual Studio Code (VS Code).
+    </p>
+</section>
+<section>
+    <h2>Structure sémantique HTML5</h2>
+     <p>HTML5 introduit des balises sémantiques pour mieux structurer le contenu d'une page web :
+        <ul>
+            <li><strong>&lt;header&gt;</strong> : en-tête de la page</li>
+            <li><strong>&lt;nav&gt;</strong> : navigation</li>
+            <li><strong>&lt;main&gt;</strong> : contenu principal</li>
+            <li><strong>&lt;section&gt;</strong> : section du document</li>
+            <li><strong>&lt;article&gt;</strong> : article indépendant</li>
+            <li><strong>&lt;aside&gt;</strong> : contenu annexes</li>
+            <li><strong>&lt;footer&gt;</strong> : pied de page</li>
+        </ul>
+
+     </p>
+
+</section>
+<section>
+
+    <h2>À retenir</h2>
+    <p>
+        Le HTML sert à structurer le contenu d’une page web.
+        Il est la base de tous les sites internet.
+    </p>
+</section>
+
+</main>
+
+<footer>
+    <p id="copyright">© Yassine Kaddouhi</p>
+    <pre>
+ _  __   _   ___  ___   ___  _   _ _  _ ___ 
+ | |/ /  /_\ |   \|   \ / _ \| | | | || |_ _|
+ | ' <  / _ \| |) | |) | (_) | |_| | __ || | 
+ |_|\_\/_/ \_\___/|___/ \___/ \___/|_||_|___|
+    </pre>
+</footer>
+</body>
+</html>
